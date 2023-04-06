@@ -1,9 +1,11 @@
 ---
+import '../styles/global.css';
 // Component Imports
 import Counter from "../components/Counter";
 const someProps = {
     count: 0,
 };
+const pageTitle = "About Me";
 
 // Full Astro Component Syntax:
 // https://docs.astro.build/core-concepts/astro-components/
@@ -25,6 +27,8 @@ const someProps = {
                 padding: 2rem;
             }
         </style>
+        <title>Astro</title>
+        <title>{pageTitle}</title>
     </head>
     <body>
         <main>
