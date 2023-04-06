@@ -9,7 +9,7 @@ export default function Counter({
 	count: number;
 }) {
 	const [count, setCount] = useState(initialCount);
-	const add = () => setCount((i) => i + 1);
+	const add = () => setCount((i) => i + 2);
 	const subtract = () => setCount((i) => i - 1);
 
 	return (
