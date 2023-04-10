@@ -1,0 +1,40 @@
+---
+import { IoLogoGithub } from "react-icons/io5/index.js";
+import { HOME_PAGE } from "../config";
+import ThemeToggle from "./ThemeToggleButton";
+import HeaderLink from "./HeaderLink.astro";
+---
+
+<header class="fixed w-full p-2 z-20 backdrop-blur-md">
+    <div class="mx-auto max-w-3xl">
+        <nav class="flex items-center gap-3 text-base">
+            <a href="/" class="group">
+                <h2
+                    class="font-extrabold tracking-tighter p-2 font-mplus text-lg"
+                >
+                    Ccctw Blog
+                </h2>
+            </a>
+            <div class="flex-1"></div>
+            <div class="item-center gap-6 flex">
+                <a href="" class="inline-flex no-underline font-extrabold"
+                    >Blogs</a
+                >
+                <a href="" class="inline-flex no-underline font-extrabold"
+                    >Demos</a
+                >
+            </div>
+            <div class="flex-1"></div>
+            <a
+                href={HOME_PAGE}
+                target="_blank"
+                class="inline-flex items-center gap-2 no-underline hover:font-normal transition-all"
+                ><IoLogoGithub />Source
+            </a>
+            <div class="item-center hidden md:block">
+                <ThemeToggle client:visible />
+            </div>
+            <!-- <DropdownMenu client:visible tags={Array.from(allTags)} /> -->
+        </nav>
+    </div>
+</header>
