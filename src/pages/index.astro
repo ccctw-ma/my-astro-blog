@@ -1,14 +1,11 @@
 ---
 import "../styles/global.css";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import Greeting from "../components/Greeting";
 import Content from "../components/Content.astro";
-const someProps = {
-    count: 0,
-};
+import Introduction from "../components/Introduction.astro";
+
 const pageTitle = "Home";
 
-const baseAssetUrl = "https://craftzdog.global.ssl.fastly.net/uses";
 
 // Full Astro Component Syntax:
 // https://docs.astro.build/core-concepts/astro-components/
@@ -29,6 +26,8 @@ const baseAssetUrl = "https://craftzdog.global.ssl.fastly.net/uses";
                     </div>
                 </div>
             </section>
+            <!-- self introduction -->
+            <Introduction />
         </Content>
     </main>
 </BaseLayout>
