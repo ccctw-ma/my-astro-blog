@@ -9,6 +9,7 @@ specifiers:
   react: ^18.1.0
   react-dom: ^18.1.0
   react-icons: ^4.8.0
+  rehype-add-classes: ^1.0.0
   tailwindcss: ^3.0.24
 
 dependencies:
@@ -20,6 +21,7 @@ dependencies:
   react: registry.npmmirror.com/react/18.2.0
   react-dom: registry.npmmirror.com/react-dom/18.2.0_react@18.2.0
   react-icons: registry.npmmirror.com/react-icons/4.8.0_react@18.2.0
+  rehype-add-classes: registry.npmmirror.com/rehype-add-classes/1.0.0
   tailwindcss: registry.npmmirror.com/tailwindcss/3.3.1
 
 packages:
@@ -1201,6 +1203,12 @@ packages:
       readable-stream: registry.npmmirror.com/readable-stream/3.6.2
     dev: false
 
+  registry.npmmirror.com/boolbase/1.0.0:
+    resolution: {integrity: sha512-JZOSA7Mo9sNGB8+UjSgzdLtokWAky1zbztM3WRLCbZ70/3cTANmQmOdR7y2g+J0e2WXywy1yS468tY+IruqEww==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/boolbase/-/boolbase-1.0.0.tgz}
+    name: boolbase
+    version: 1.0.0
+    dev: false
+
   registry.npmmirror.com/boxen/6.2.1:
     resolution: {integrity: sha512-H4PEsJXfFI/Pt8sjDWbHlQPx4zL/bvSQjcilJmaulGt5mLDorHOHpmdXAJcBcmru7PhYSp/cDMWRko4ZUMFkSw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/boxen/-/boxen-6.2.1.tgz}
     name: boxen
@@ -1271,6 +1279,13 @@ packages:
     name: camelcase-css
     version: 2.0.1
     engines: {node: '>= 6'}
+    dev: false
+
+  registry.npmmirror.com/camelcase/3.0.0:
+    resolution: {integrity: sha512-4nhGqUkc4BqbBBB4Q6zLuD7lzzrHYrjKGeYaEji/3tFR5VdJu9v+LilhGIVe8wxEJPPOeWo7eg8dwY13TZ1BNg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/camelcase/-/camelcase-3.0.0.tgz}
+    name: camelcase
+    version: 3.0.0
+    engines: {node: '>=0.10.0'}
     dev: false
 
   registry.npmmirror.com/camelcase/6.3.0:
@@ -1421,6 +1436,12 @@ packages:
     version: 1.1.4
     dev: false
 
+  registry.npmmirror.com/comma-separated-tokens/1.0.8:
+    resolution: {integrity: sha512-GHuDRO12Sypu2cV70d1dkA2EUmXHgntrzbpvOB+Qy+49ypNfGgFQIC2fhhXbnyrJRynDCAARsT7Ou0M6hirpfw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/comma-separated-tokens/-/comma-separated-tokens-1.0.8.tgz}
+    name: comma-separated-tokens
+    version: 1.0.8
+    dev: false
+
   registry.npmmirror.com/comma-separated-tokens/2.0.3:
     resolution: {integrity: sha512-Fu4hJdvzeylCfQPp9SGWidpzrMs7tTrlu6Vb8XGaRGck8QSNZJJp538Wrb60Lax4fPwR64ViY468OIUTbRlGZg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/comma-separated-tokens/-/comma-separated-tokens-2.0.3.tgz}
     name: comma-separated-tokens
@@ -1468,6 +1489,12 @@ packages:
       path-key: registry.npmmirror.com/path-key/3.1.1
       shebang-command: registry.npmmirror.com/shebang-command/2.0.0
       which: registry.npmmirror.com/which/2.0.2
+    dev: false
+
+  registry.npmmirror.com/css-selector-parser/1.4.1:
+    resolution: {integrity: sha512-HYPSb7y/Z7BNDCOrakL4raGO2zltZkbeXyAd6Tg9obzix6QhzxCotdBl6VT0Dv4vZfJGVz3WL/xaEI9Ly3ul0g==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/css-selector-parser/-/css-selector-parser-1.4.1.tgz}
+    name: css-selector-parser
+    version: 1.4.1
     dev: false
 
   registry.npmmirror.com/cssesc/3.0.0:
@@ -1947,6 +1974,18 @@ packages:
       web-namespaces: registry.npmmirror.com/web-namespaces/2.0.1
     dev: false
 
+  registry.npmmirror.com/hast-util-has-property/1.0.4:
+    resolution: {integrity: sha512-ghHup2voGfgFoHMGnaLHOjbYFACKrRh9KFttdCzMCbFoBMJXiNi2+XTrPP8+q6cDJM/RSqlCfVWrjp1H201rZg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/hast-util-has-property/-/hast-util-has-property-1.0.4.tgz}
+    name: hast-util-has-property
+    version: 1.0.4
+    dev: false
+
+  registry.npmmirror.com/hast-util-is-element/1.1.0:
+    resolution: {integrity: sha512-oUmNua0bFbdrD/ELDSSEadRVtWZOf3iF6Lbv81naqsIV99RnSCieTbWuWCY8BAeEfKJTKl0gRdokv+dELutHGQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/hast-util-is-element/-/hast-util-is-element-1.1.0.tgz}
+    name: hast-util-is-element
+    version: 1.1.0
+    dev: false
+
   registry.npmmirror.com/hast-util-parse-selector/3.1.1:
     resolution: {integrity: sha512-jdlwBjEexy1oGz0aJ2f4GKMaVKkA9jwjr4MjAAI22E5fM/TXVZHuS5OpONtdeIkRKqAaryQ2E9xNQxijoThSZA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/hast-util-parse-selector/-/hast-util-parse-selector-3.1.1.tgz}
     name: hast-util-parse-selector
@@ -1971,6 +2010,24 @@ packages:
       vfile: registry.npmmirror.com/vfile/5.3.7
       web-namespaces: registry.npmmirror.com/web-namespaces/2.0.1
       zwitch: registry.npmmirror.com/zwitch/2.0.4
+    dev: false
+
+  registry.npmmirror.com/hast-util-select/1.0.1:
+    resolution: {integrity: sha512-wNFpEC9Or4YTcSzDERXu5n7L+dNTy9tLbqW+LMIkCH69g9NkLEKcGBoXUnJwOVG5KmecLmHxVbrRh3RJmUxtmA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/hast-util-select/-/hast-util-select-1.0.1.tgz}
+    name: hast-util-select
+    version: 1.0.1
+    dependencies:
+      camelcase: registry.npmmirror.com/camelcase/3.0.0
+      comma-separated-tokens: registry.npmmirror.com/comma-separated-tokens/1.0.8
+      css-selector-parser: registry.npmmirror.com/css-selector-parser/1.4.1
+      hast-util-has-property: registry.npmmirror.com/hast-util-has-property/1.0.4
+      hast-util-is-element: registry.npmmirror.com/hast-util-is-element/1.1.0
+      hast-util-whitespace: registry.npmmirror.com/hast-util-whitespace/1.0.4
+      not: registry.npmmirror.com/not/0.1.0
+      nth-check: registry.npmmirror.com/nth-check/1.0.2
+      property-information: registry.npmmirror.com/property-information/3.2.0
+      space-separated-tokens: registry.npmmirror.com/space-separated-tokens/1.1.5
+      zwitch: registry.npmmirror.com/zwitch/1.0.5
     dev: false
 
   registry.npmmirror.com/hast-util-to-html/8.0.4:
@@ -2002,6 +2059,12 @@ packages:
       space-separated-tokens: registry.npmmirror.com/space-separated-tokens/2.0.2
       web-namespaces: registry.npmmirror.com/web-namespaces/2.0.1
       zwitch: registry.npmmirror.com/zwitch/2.0.4
+    dev: false
+
+  registry.npmmirror.com/hast-util-whitespace/1.0.4:
+    resolution: {integrity: sha512-I5GTdSfhYfAPNztx2xJRQpG8cuDSNt599/7YUn7Gx/WxNMsG+a835k97TDkFgk123cwjfwINaZknkKkphx/f2A==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/hast-util-whitespace/-/hast-util-whitespace-1.0.4.tgz}
+    name: hast-util-whitespace
+    version: 1.0.4
     dev: false
 
   registry.npmmirror.com/hast-util-whitespace/2.0.1:
@@ -2934,6 +2997,12 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
+  registry.npmmirror.com/not/0.1.0:
+    resolution: {integrity: sha512-5PDmaAsVfnWUgTUbJ3ERwn7u79Z0dYxN9ErxCpVJJqe2RK0PJ3z+iFUxuqjwtlDDegXvtWoxD/3Fzxox7tFGWA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/not/-/not-0.1.0.tgz}
+    name: not
+    version: 0.1.0
+    dev: false
+
   registry.npmmirror.com/npm-run-path/5.1.0:
     resolution: {integrity: sha512-sJOdmRGrY2sjNTRMbSvluQqg+8X7ZK61yvzBEIDhz4f8z1TZFYABsqjjCBd/0PUNE9M6QDgHJXQkGUEm7Q+l9Q==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/npm-run-path/-/npm-run-path-5.1.0.tgz}
     name: npm-run-path
@@ -2941,6 +3010,14 @@ packages:
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
     dependencies:
       path-key: registry.npmmirror.com/path-key/4.0.0
+    dev: false
+
+  registry.npmmirror.com/nth-check/1.0.2:
+    resolution: {integrity: sha512-WeBOdju8SnzPN5vTUJYxYUxLeXpCaVP5i5e0LF8fg7WORF2Wd7wFX/pk0tYZk7s8T+J7VLy0Da6J1+wCT0AtHg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/nth-check/-/nth-check-1.0.2.tgz}
+    name: nth-check
+    version: 1.0.2
+    dependencies:
+      boolbase: registry.npmmirror.com/boolbase/1.0.0
     dev: false
 
   registry.npmmirror.com/object-assign/4.1.1:
@@ -3310,6 +3387,12 @@ packages:
       sisteransi: registry.npmmirror.com/sisteransi/1.0.5
     dev: false
 
+  registry.npmmirror.com/property-information/3.2.0:
+    resolution: {integrity: sha512-BKU45RMZAA+3npkQ/VxEH7EeZImQcfV6rfKH0O4HkkDz3uqqz+689dbkjiWia00vK390MY6EARPS6TzNS4tXPg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/property-information/-/property-information-3.2.0.tgz}
+    name: property-information
+    version: 3.2.0
+    dev: false
+
   registry.npmmirror.com/property-information/6.2.0:
     resolution: {integrity: sha512-kma4U7AFCTwpqq5twzC1YVIDXSqg6qQK6JN0smOw8fgRy1OkMi0CYSzFmsy6dnqSenamAtj0CyXMUJ1Mf6oROg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/property-information/-/property-information-6.2.0.tgz}
     name: property-information
@@ -3388,6 +3471,14 @@ packages:
     engines: {node: '>=8.10.0'}
     dependencies:
       picomatch: registry.npmmirror.com/picomatch/2.3.1
+    dev: false
+
+  registry.npmmirror.com/rehype-add-classes/1.0.0:
+    resolution: {integrity: sha512-Iz8t2KhCNAL+0AHKjxb+kVwsHk/pI3Cy4k0R70ZGzoQiZ7WQm3o8+3odJkMhFRfcNIK1lNShIHEdC90H5LwLdg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/rehype-add-classes/-/rehype-add-classes-1.0.0.tgz}
+    name: rehype-add-classes
+    version: 1.0.0
+    dependencies:
+      hast-util-select: registry.npmmirror.com/hast-util-select/1.0.1
     dev: false
 
   registry.npmmirror.com/rehype-parse/8.0.4:
@@ -3695,6 +3786,12 @@ packages:
     name: source-map
     version: 0.7.4
     engines: {node: '>= 8'}
+    dev: false
+
+  registry.npmmirror.com/space-separated-tokens/1.1.5:
+    resolution: {integrity: sha512-q/JSVd1Lptzhf5bkYm4ob4iWPjx0KiRe3sRFBNrVqbJkFaBm5vbbowy1mymoPNLRa52+oadOhJ+K49wsSeSjTA==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/space-separated-tokens/-/space-separated-tokens-1.1.5.tgz}
+    name: space-separated-tokens
+    version: 1.1.5
     dev: false
 
   registry.npmmirror.com/space-separated-tokens/2.0.2:
@@ -4422,6 +4519,12 @@ packages:
     resolution: {integrity: sha512-m46AKbrzKVzOzs/DZgVnG5H55N1sv1M8qZU3A8RIKbs3mrACDNeIOeilDymVb2HdmP8uwshOCF4uJ8uM9rCqJw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/zod/-/zod-3.21.4.tgz}
     name: zod
     version: 3.21.4
+    dev: false
+
+  registry.npmmirror.com/zwitch/1.0.5:
+    resolution: {integrity: sha512-V50KMwwzqJV0NpZIZFwfOD5/lyny3WlSzRiXgA0G7VUnRlqttta1L6UQIHzd6EuBY/cHGfwTIck7w1yH6Q5zUw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/zwitch/-/zwitch-1.0.5.tgz}
+    name: zwitch
+    version: 1.0.5
     dev: false
 
   registry.npmmirror.com/zwitch/2.0.4:
