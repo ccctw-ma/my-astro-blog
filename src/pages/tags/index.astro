@@ -1,38 +1,33 @@
 ---
+import Content from "../../components/Content.astro";
 import BaseLayout from "../../layouts/BaseLayout.astro";
 const allPosts = await Astro.glob("../posts/*.md");
+
 const tags = [...new Set(allPosts.map((post) => post.frontmatter.tags).flat())];
 const pageTitle = "Tag Index";
+const baseUrl = "https://ccctw-ma.github.io/imgs/";
 ---
 
 <BaseLayout pageTitle={pageTitle}>
-    <div class="tags">
-        {
-            tags.map((tag) => (
-                <p class="tag">
-                    <a href={`/tags/${tag}`}>{tag}</a>
-                </p>
-            ))
-        }
-    </div>
+    <Content>
+        <div class="flex flex-col items-center pt-16">
+            <ul class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {
+                    tags.map((tag) => (
+                        <li class=" text-center mb-4 hover:text-orange-500">
+                            <a href={`/tags/${tag}`}>
+                                <img
+                                    src={`${baseUrl}${tag}.jpg`}
+                                    alt={tag}
+                                    onerror="this.onerror=null;this.src='https://ccctw-ma.github.io/imgs/astro.jpg'"
+                                    class="max-w-[400px] aspect-video  object-cover border border-slate-300 dark:border-zinc-700 rounded-xl w-full"
+                                />
+                                <div class="mt-3 text-xl font-bold ">{tag}</div>
+                            </a>
+                        </li>
+                    ))
+                }
+            </ul>
+        </div>
+    </Content>
 </BaseLayout>
-<style>
-    a {
-        color: #00539f;
-    }
-
-    .tags {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 0 auto;
-    }
-
-    .tag {
-        margin: 0.25em;
-        border: dotted 1px #a1a1a1;
-        border-radius: 0.5em;
-        padding: 0.5em 1em;
-        font-size: 1.15em;
-        background-color: #f8fcfd;
-    }
-</style>
